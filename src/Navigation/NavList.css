@@ -1,0 +1,8 @@
+.NavList {
+  display: flex;
+  list-style: none;
+}
+.NavList li {
+  flex: 1;
+  text-align: center;
+}

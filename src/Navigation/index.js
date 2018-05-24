@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-
+import './NavList.css';
 
 class Navigation extends Component {
   render() {
     return(
-      <ul>
+      <ul className="NavList">
         <li><a href="/">Home</a></li>
         <li><a href="/">About</a></li>
         <li><a href="/">Expertise</a></li>

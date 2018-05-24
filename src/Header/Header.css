@@ -1,0 +1,31 @@
+.Nav {
+  grid-template-columns: auto;
+  grid-template-rows: 25px;
+  position: relative;
+  height: 300px;
+}
+.Nav::after {
+  display: block;
+  content: " ";
+  background-image: url('https://picsum.photos/2000/800?image=648');
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -2;
+  filter: grayscale(1);
+  background-size: cover;
+  background-position: center center;
+}
+.Nav::before {
+  display: block;
+  content: " ";
+  background: linear-gradient(to right, rgba(98,42,95,0.8) 0%,rgba(123,43,122,0.8) 53%,rgba(162,27,165,0.5) 100%);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
